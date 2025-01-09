@@ -62,3 +62,6 @@ To run this project, you will need the following Python packages:
 
 You can install all required packages by running:
 
+pip install -r requirements.txt
+
+
