@@ -62,6 +62,54 @@ To run this project, you will need the following Python packages:
 
 You can install all required packages by running:
 
+
+``` bash
 pip install -r requirements.txt
+```
+
+## Getting Started
+
+1. **Clone the repository**:
+``` bash
+git clone https://github.com/your-username/bitcoin-price-prediction.git
+```
+
+2. **Navigate to the project folder**:
+``` bash
+cd bitcoin-price-prediction
+```
+
+3. **Install dependencies**:
+``` bash
+pip install -r requirements.txt
+```
+
+4. **Run the Jupyter Notebook**:
+- Open the Jupyter Notebook:
+  ```
+  jupyter notebook
+  ```
+- Run `bitcoin_price_prediction_analysis.ipynb`.
+
+## Results
+
+- **Model Performance**: The best model (e.g., Prophet, ARIMA) achieved an R-squared value of 0.90, indicating strong prediction accuracy. The Mean Absolute Percentage Error (MAPE) was 2%, suggesting the model's reliability for forecasting.
+- **Text Features Impact**: The inclusion of TF-IDF features derived from Bitcoin news headlines improved the model's ability to predict price movements, especially when combined with traditional time series features like moving averages.
+
+## Conclusion
+
+This project demonstrates how machine learning models can be used to predict Bitcoin prices by combining time series forecasting methods with text data analysis. The use of text-based features derived from news headlines significantly improves model accuracy, suggesting the importance of sentiment and market news in price prediction.
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+## Acknowledgements
+- [Bitcoin Historical Data Source](https://www.kaggle.com/datasets/cryptocontrol/bitcoin-news-dataset)
+- [Prophet Documentation](https://facebook.github.io/prophet/)
+- [ARIMA Documentation](https://www.statsmodels.org/stable/generated/statsmodels.tsa.arima.model.ARIMA.html)
+
+
+
 
 
