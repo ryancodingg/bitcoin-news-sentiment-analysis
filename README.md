@@ -69,12 +69,12 @@ pip install -r requirements.txt
 
 1. **Clone the repository**:
 ``` bash
-git clone https://github.com/your-username/bitcoin-price-prediction.git
+git clone https://github.com/your-username/bitcoin_news_sentiment_analysis.git
 ```
 
 2. **Navigate to the project folder**:
 ``` bash
-cd bitcoin-price-prediction
+cd bitcoin-news_sentiment_analysis
 ```
 
 3. **Install dependencies**:
@@ -87,7 +87,7 @@ pip install -r requirements.txt
   ```
   jupyter notebook
   ```
-- Run `bitcoin_price_prediction_analysis.ipynb`.
+- Run `bitcoin_news_sentiment_analysis.ipynb`.
 
 ## Results
 
