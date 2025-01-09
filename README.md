@@ -1,7 +1,5 @@
 # Bitcoin News Sentiment Analysis
 
-# Bitcoin Price Prediction Analysis with Machine Learning
-
 ## Project Overview
 
 This project analyzes historical Bitcoin price movements using machine learning techniques and time series forecasting models. It utilizes a dataset containing Bitcoin news headlines and price data over time. Various statistical and machine learning methods, such as ARIMA, Prophet, and feature engineering, are used to predict future Bitcoin prices and evaluate their performance.
